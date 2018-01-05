@@ -73,6 +73,9 @@ on post-fs-data
     chown nfc nfc /data/nfc
     chown nfc nfc /data/nfc/param
 
+    # Generate Wi-Fi MAC
+    start wifi-mac-generator
+
 on boot
     chown system system /sys/class/input/input0/enabled
     chown system system /sys/class/input/input1/enabled
@@ -151,3 +154,10 @@ service thermal-engine /system/vendor/bin/thermal-engine
    class main
    user root
    group root
+
+service wifi-mac-generator /vendor/bin/wifi-mac-generator
+    class main
+    user wifi
+    group wifi
+    oneshot
+    disabled

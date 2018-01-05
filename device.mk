@@ -85,7 +85,8 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf \
     wpa_supplicant_overlay.conf \
-    p2p_supplicant_overlay.conf
+    p2p_supplicant_overlay.conf \
+    wifi-mac-generator
 
 # SoftAP
 PRODUCT_PACKAGES += \

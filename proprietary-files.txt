@@ -58,6 +58,7 @@ vendor/lib/libmmcamera2_vpe_module.so
 vendor/lib/libmmcamera2_wnr_module.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
+vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 
@@ -75,8 +76,8 @@ etc/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_1_6.fw
 etc/firmware/cpp_firmware_v1_2_0.fw
 
-# DRM
-vendor/lib/libsecureui.so
+# Charger
+bin/hvdcp
 
 # Graphics firmware
 etc/firmware/a225_pfp.fw
@@ -89,6 +90,9 @@ etc/firmware/a330_pm4.fw
 
 # NFC firmware
 vendor/firmware/BCM20795A1_001.002.012.0003.0083_Generic_I2C_NCD_Unsigned_configdata.ncd
+
+# Radio
+vendor/lib/libdsnetutils.so
 
 # Sensors
 bin/sensors.qcom

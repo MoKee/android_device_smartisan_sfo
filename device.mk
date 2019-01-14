@@ -58,6 +58,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# Config panel / Key handler
+PRODUCT_PACKAGES += \
+    ConfigPanel
+
 # Power
 PRODUCT_PACKAGES += \
     libshim_atomic \

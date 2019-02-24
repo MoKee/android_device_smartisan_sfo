@@ -88,6 +88,9 @@ etc/firmware/a300_pm4.fw
 etc/firmware/a330_pfp.fw
 etc/firmware/a330_pm4.fw
 
+# Keystore
+lib/hw/keystore.qcom.so:vendor/lib/hw/keystore.msm8974.so
+
 # NFC firmware
 vendor/firmware/BCM20795A1_001.002.012.0003.0083_Generic_I2C_NCD_Unsigned_configdata.ncd
 

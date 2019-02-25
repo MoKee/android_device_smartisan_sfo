@@ -142,5 +142,8 @@ vendor/lib/libsensor_reg.so
 # STLport
 lib/libstlport.so
 
+# Thermal
+etc/thermal-engine-8974.conf
+
 # Wi-Fi
 etc/firmware/wlan/prima/WCNSS_cfg.dat

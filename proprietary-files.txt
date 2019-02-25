@@ -94,8 +94,43 @@ lib/hw/keystore.qcom.so:vendor/lib/hw/keystore.msm8974.so
 # NFC firmware
 vendor/firmware/BCM20795A1_001.002.012.0003.0083_Generic_I2C_NCD_Unsigned_configdata.ncd
 
+# QMI
+-vendor/lib/libdiag.so
+-vendor/lib/libdsutils.so
+-vendor/lib/libidl.so
+-vendor/lib/libqcci_legacy.so
+-vendor/lib/libqmi.so
+-vendor/lib/libqmi_client_qmux.so
+-vendor/lib/libqmiservices.so
+bin/irsc_util:vendor/bin/irsc_util
+vendor/lib/libdsi_netctrl.so
+vendor/lib/libqdi.so
+vendor/lib/libqdp.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_csvt_srvc.so
+vendor/lib/libqmi_encdec.so
+
 # Radio
+-app/qcrilmsgtunnel.apk
+-app/shutdownlistener.apk
+bin/netmgrd:vendor/bin/netmgrd
+bin/qmuxd:vendor/bin/qmuxd
+bin/radish:vendor/bin/radish
+bin/rfs_access:vendor/bin/rfs_access
+bin/rmt_storage:vendor/bin/rmt_storage
+etc/permissions/qcnvitems.xml
+etc/permissions/qcrilhook.xml
+framework/qcnvitems.jar
+framework/qcrilhook.jar
+vendor/lib/libNimsWrap.so
+vendor/lib/libcneapiclient.so
+vendor/lib/libconfigdb.so
 vendor/lib/libdsnetutils.so
+vendor/lib/libnetmgr.so
+vendor/lib/libril-qc-qmi-1.so
+vendor/lib/libxml.so
 
 # Sensors
 bin/sensors.qcom

@@ -239,6 +239,7 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    libshims_ioprio_set \
     librmnetctl \
     libxml2 \
     libprotobuf-cpp-full

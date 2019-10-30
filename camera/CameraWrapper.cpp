@@ -548,6 +548,12 @@ static int camera_device_open(const hw_module_t *module, const char *name,
         if (check_vendor_module())
             return -EINVAL;
 
+        if (strcmp(name, "0") == 0) {
+            name = "1";
+        } else if (strcmp(name, "1") == 0) {
+            name = "0";
+        }
+
         cameraid = atoi(name);
         num_cameras = gVendorModule->get_number_of_cameras();
 
